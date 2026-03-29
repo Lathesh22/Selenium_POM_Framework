@@ -16,7 +16,7 @@ public class Test_Netflix extends OpenBrowser {
 	public void validation() 
 	
 	{	
-		
+		 driver.navigate().to("https://www.netflix.com/in/");
 		Netflixpage tp= new Netflixpage(driver);
 			
 tp.clicksignin();	

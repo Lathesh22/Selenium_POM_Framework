@@ -20,7 +20,7 @@ public class OpenBrowser {
 	 driver.manage().window().maximize();
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	 
-	 driver.navigate().to("https://www.netflix.com/in/");
+	
 	 }
 	 
 	 @AfterMethod
