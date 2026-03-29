@@ -1,4 +1,12 @@
-\# Netflix Login Automation - Selenium POM Framework
+\# Selenium POM Framework
+
+
+
+\## Applications Automated
+
+\- Netflix Login Flow
+
+\- SauceDemo Login - Positive and Negative scenarios
 
 
 
@@ -16,17 +24,11 @@
 
 
 
-\## Framework Structure
-
-\- Base1/OpenBrowser.java - Browser setup and teardown
-
-\- Page1/Netflixpage.java - Page Object with FindBy locators
-
-\- Test1/Test\_Netflix.java - Test class with assertions
+\## Test Scenarios
 
 
 
-\## Test Scenario
+\### Netflix
 
 \- Open Netflix
 
@@ -40,13 +42,25 @@
 
 
 
+\### SauceDemo
+
+\- Valid login with correct credentials
+
+\- Assert inventory page loads
+
+\- Invalid login with wrong credentials
+
+\- Assert error message displays "Epic sadface"
+
+
+
 \## How to Run
 
-1\. Clone the repository
+1\. Clone repository
 
 2\. Open in Eclipse as Maven project
 
-3\. Run Test1/Test\_Netflix.java as TestNG Test
+3\. Run individual test classes as TestNG Test
 
 
 
