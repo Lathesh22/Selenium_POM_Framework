@@ -4,3 +4,5 @@ target/
 .settings/ 
 Screenshot 
 SeleniumScreenshot/ 
+test-output/
+Thumbs.db
