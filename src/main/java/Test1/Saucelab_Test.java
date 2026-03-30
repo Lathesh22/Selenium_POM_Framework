@@ -15,7 +15,7 @@ public class Saucelab_Test extends OpenBrowser {
 		Saucelab_Page sp= new Saucelab_Page(driver);
 		
 		sp.enterusernmae("standard_user");
-		sp.enterpasswortd("secret_sauce");
+		sp.enterpasswortd("wrongpassword123");
 		sp.enterbutton();
 		Assert.assertTrue(driver.getCurrentUrl().contains("inventory"), "Valid login failed!");
 	}
@@ -27,7 +27,7 @@ public class Saucelab_Test extends OpenBrowser {
 		Saucelab_Page sp= new Saucelab_Page(driver);
 		
 		sp.enterusernmae("invalid_user");
-		sp.enterpasswortd("wrong_password");
+		sp.enterpasswortd("good");
 		sp.enterbutton();
 		
 		Assert.assertTrue(sp.getErrorMessage().contains("Epic sadface"), "Invalid login failed!");
